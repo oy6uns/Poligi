@@ -154,7 +154,7 @@ def generate_answer(query, conversation_history, top_k=2):
 
 # Streamlit 앱 설정
 st.image(r"poligi.png", use_column_width=True)
-st.header("🤖 Gist Policy App (Demo)")
+st.header("🤖 Gist Policy App")
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
